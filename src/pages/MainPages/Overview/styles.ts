@@ -18,8 +18,8 @@ export const Heading = styled.View`
     align-items: center;
     justify-content: space-between;
     width: 96%;
-    margin-top: 18px;
-    margin-bottom: 24px;
+    margin-top: 22px;
+    margin-bottom: 27.5px;
 `;
 
 export const Menu = styled.TouchableOpacity``;
@@ -54,4 +54,5 @@ export const MoneyReturn = styled.Text`
 
 export const BankingFunctions = styled.ScrollView`
     width: 100%;
+    margin-top: 4px;
 `;

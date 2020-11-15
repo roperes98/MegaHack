@@ -1,8 +1,6 @@
 import React from 'react';
 import { MaterialIcons } from '@expo/vector-icons';
 
-import { Text } from 'react-native';
-
 import { 
   Container, 
   Header,
@@ -16,8 +14,11 @@ import {
   ScoreInfo,
   ScoreInfoTitle,
   ScoreInfoCards,
-  Card
+  Card,
+  MainInfo,
+  InfoName
 } from './styles';
+import LargeButton from '../../../components/LargeButton';
 
 const BusinessHealth: React.FC = () => {
   return (
@@ -53,7 +54,22 @@ const BusinessHealth: React.FC = () => {
         <ScoreInfoTitle>Resumo</ScoreInfoTitle>
 
         <ScoreInfoCards>
-          <Card />
+          <Card>
+            <MainInfo>R$ 200,00</MainInfo>
+            <InfoName>Faturamento mensal</InfoName>
+          </Card>
+          <Card>
+            <MainInfo>R$ 200,00</MainInfo>
+            <InfoName>Ticket médio</InfoName>
+          </Card>
+          <Card>
+            <MainInfo>R$ 100,00</MainInfo>
+            <InfoName>Índice de endividamento</InfoName>
+          </Card>
+          <Card>
+            <MainInfo>R$ 100,00</MainInfo>
+            <InfoName>Ponto de equilíbrio</InfoName>
+          </Card>
         </ScoreInfoCards>
       </ScoreInfo>
     </Container>

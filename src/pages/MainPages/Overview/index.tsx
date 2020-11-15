@@ -44,7 +44,7 @@ const Overview: React.FC = () => {
       <OverviewInfo>
         <OverviewInfoTitle>VISÃO GERAL</OverviewInfoTitle>
         <MoneyTotal>R$ 20.000,00</MoneyTotal>
-        <MoneyReturn>Lucro: R$ 200,00</MoneyReturn>
+        <MoneyReturn>reserva: R$ 200,00</MoneyReturn>
         <LineChart
           style={{ height: 280, width: 387 }}
           data={data}
@@ -54,10 +54,12 @@ const Overview: React.FC = () => {
       </OverviewInfo>
 
       <BankingFunctions>
+        <LargeButton>Saldo</LargeButton>
+        <LargeButton>Pagar conta</LargeButton>
+        <LargeButton>Cartão</LargeButton>
         <LargeButton>Transferir</LargeButton>
-        <LargeButton />
-        <LargeButton />
-        <LargeButton />
+        <LargeButton>Depositar</LargeButton>
+        <LargeButton>Crédito</LargeButton>
       </BankingFunctions>
     </Wrapper>
   );

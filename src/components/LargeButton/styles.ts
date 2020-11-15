@@ -8,9 +8,9 @@ export const Container = styled.TouchableOpacity`
 
     width: 100%;
     padding: 16px 15px;
-    margin-bottom: 1px;
+    margin-bottom: 1.2px;
 
-    background-color: #545454;
+    background-color: #2e2e2e;
 `;
 
 export const ButtonText = styled.Text`

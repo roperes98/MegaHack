@@ -72,7 +72,7 @@ export const LastUpdatedText = styled.Text`
 `;
 
 export const ScoreInfo = styled.View`
-    margin-top: 16px;
+    margin-top: 30px;
     width: 100%;
 `;
 
@@ -88,6 +88,17 @@ export const ScoreInfoCards = styled.View`
 
 export const Card = styled.TouchableOpacity`
     width: 100%;
-    height: 75px;
-    background-color: #545454;
+    padding: 16px 15px;
+    background-color: #2e2e2e;
+    justify-content: center;
+`;
+
+export const MainInfo = styled.Text`
+    font-size: 21px;
+    color: #EDEDED;
+`;
+
+export const InfoName = styled.Text`
+    font-size: 15px;
+    color: #BEBEBE;
 `;
