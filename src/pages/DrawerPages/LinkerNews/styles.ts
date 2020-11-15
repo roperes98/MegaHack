@@ -13,6 +13,48 @@ export const Wrapper = styled.SafeAreaView`
     align-items: center;
 `;
 
+export const Header = styled.View`
+    width: 90%;
+    margin-bottom: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9px;
+`;
+
+export const Button = styled.TouchableOpacity``;
+
+export const PageTitle = styled.Text`
+    font-size: 30px;
+    color: white;
+    line-height: 37px;
+`;
+
+export const List = styled.ScrollView.attrs({
+    horizontal: true,
+    showsHorizontalScrollIndicator: false
+})``;
+
+export const CategoryContainer = styled.TouchableOpacity`
+    margin: 10px;
+    align-items: center;
+`;
+export const CategoryImage = styled.Image`
+    height: 80px;
+    width: 80px;
+    border-radius: 45px;
+`;
+export const CategoryName = styled.Text`
+    margin-top: 5px;
+    color: #fff;
+`;
+
+export const NewsList = styled.ScrollView.attrs({
+    vertical: true,
+})`
+height: 75%;
+`;
+
 export const NewsBox = styled.TouchableOpacity`
     width: 100%;
     height: 90px;
@@ -22,6 +64,8 @@ export const NewsBox = styled.TouchableOpacity`
     flex-direction: row;
     align-items: center;
     align-self: center;
+
+    margin-bottom: 16px;
 `;
 
 export const NewsBoxMarker = styled.View`
@@ -46,6 +90,7 @@ export const NewsGroup = styled.View`
 `;
 
 export const SavedOnlyGroup = styled.View`
+    margin-top: -20px;
     margin-bottom: 17px;
     flex-direction: row;
     justify-content: space-between;

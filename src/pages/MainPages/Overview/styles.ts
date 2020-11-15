@@ -31,6 +31,7 @@ export const OverviewInfo = styled.View`
 `;
 
 export const OverviewInfoTitle = styled.Text`
+    font-family: Montserrat-Bold;
     font-weight: bold;
     font-size: 30px;
     color: #EE2E5D;
