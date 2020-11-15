@@ -19,7 +19,7 @@ export const SectionTitle = styled.Text`
     margin-left: 8px;
     margin-bottom: 10px;
     font-size: 28px;
-    color: white;
+    color: ${colors.justWhite};
 `;
 
 export const AccountInfoContainer = styled.View`

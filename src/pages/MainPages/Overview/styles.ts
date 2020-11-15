@@ -18,7 +18,7 @@ export const Heading = styled.View`
     align-items: center;
     justify-content: space-between;
     width: 96%;
-    margin-top: 22px;
+    margin-top: 50px;
     margin-bottom: 27.5px;
 `;
 
