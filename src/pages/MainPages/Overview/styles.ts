@@ -52,7 +52,7 @@ export const MoneyReturn = styled.Text`
     margin-bottom: 4px;
 `;
 
-export const BankingFunctions = styled.ScrollView`
+export const BankingFunctions = styled.View`
     width: 100%;
     margin-top: 4px;
 `;

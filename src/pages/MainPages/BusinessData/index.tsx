@@ -17,7 +17,8 @@ import {
   OperatingProfit,
   CardText,
   CardTextValue,
-  Card
+  Card,
+  CardsContainer
 } from './styles';
 
 const BusinessData: React.FC = () => {
@@ -62,10 +63,26 @@ const BusinessData: React.FC = () => {
         </BusinessDataSectionTitleGroup>
 
         <BusinessDataSectionCards>
-          <Card>
-            <CardText>Custo de funcionários:</CardText>
-            <CardTextValue>R$ 10.000,00</CardTextValue>
-          </Card>
+          <CardsContainer>
+            <Card>
+              <CardText>Custos de funcionários:</CardText>
+              <CardTextValue>R$ 10.000,00</CardTextValue>
+            </Card>
+            <Card>
+              <CardText>Custos de estrutura:</CardText>
+              <CardTextValue>R$ 10.000,00</CardTextValue>
+            </Card>
+          </CardsContainer>
+          <CardsContainer>
+            <Card>
+              <CardText>Custos de Produção:</CardText>
+              <CardTextValue>R$ 10.000,00</CardTextValue>
+            </Card>
+            <Card>
+              <CardText>Outras despesas:</CardText>
+              <CardTextValue>R$ 10.000,00</CardTextValue>
+            </Card>
+          </CardsContainer>
         </BusinessDataSectionCards>
       </BusinessDataSection>
     </Container>

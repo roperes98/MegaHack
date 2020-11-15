@@ -68,17 +68,28 @@ export const BusinessDataSectionCards = styled.ScrollView`
 export const Card = styled.View`
     height: 104px;
     width: 45%;
-    background-color: #c4c4c4;
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const CardText = styled.Text`
-    margin-top: 4px;
+    margin-top: -7px;
     font-size: 18px;
-    align-self: center;
+    color: #EDEDED;
 `;
 
 export const CardTextValue = styled.Text`
-    margin-top: 16px;
+    margin-top: 12px;
     font-size: 24px;
     align-self: center;
+    color: #EDEDED;
+`;
+
+export const CardsContainer = styled.View`
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 24px;
 `;
