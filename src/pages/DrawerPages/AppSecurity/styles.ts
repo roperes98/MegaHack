@@ -36,7 +36,7 @@ export const DogImage = styled.Image`
 
 export const FingerprintGroup = styled.View`
     margin-top: 17px;
-    margin-bottom: 17px;
+    margin-bottom: 28px;
     width: 95%;
     flex-direction: row;
     justify-content: space-between;
@@ -45,5 +45,21 @@ export const FingerprintGroup = styled.View`
 
 export const FingerprintText = styled.Text`
     font-size: 24px;
+    color: #dddddd;
+`;
+
+export const ExitInAllDevices = styled.TouchableOpacity`
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 16px 15px;
+    margin-top: 28px;
+
+    background-color: #545454;
+`;
+
+export const ExitInAllDevicesText = styled.Text`
+    font-size: 18px;
     color: #dddddd;
 `;

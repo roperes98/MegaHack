@@ -13,10 +13,15 @@ export const Wrapper = styled.SafeAreaView`
     align-items: center;
 `;
 
+export const NotificationsOfTheDay = styled.View`
+    margin-bottom: 20px;
+`;
+
 export const NotificationBox = styled.TouchableOpacity`
     width: 100%;
     height: 76px;
     border-radius: 8px;
+    margin-bottom: 10px;
 
     background-color: #3C3C3C;
     flex-direction: row;
@@ -41,8 +46,9 @@ export const NotificationText = styled.Text`
     width: 60%;
 `;
 
-export const NotificationGroup = styled.View`
+export const NotificationGroup = styled.ScrollView`
     width: 94%;
+    margin-top: 40px;
 `;
 
 export const NotificationsDateBox = styled.View`

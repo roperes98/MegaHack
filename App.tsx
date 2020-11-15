@@ -5,7 +5,6 @@ import { StatusBar } from 'expo-status-bar';
 import DrawerRoutes from './src/Routes/drawerRouter';
 
 import Routes from './src/Routes/routes';
-import AppSecurity from './src/pages/DrawerPages/AppSecurity';
 
 const fetchFonts = () => {
   return Font.loadAsync({
@@ -28,8 +27,7 @@ export default function App() {
 
   return (
     <>
-    {/* <Routes /> */}
-    <AppSecurity />
+    <Routes />
     {/* <DrawerRoutes /> */}
       <StatusBar style="light" />
     </>

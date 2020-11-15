@@ -54,7 +54,7 @@ const Overview: React.FC = () => {
       </OverviewInfo>
 
       <BankingFunctions>
-        <LargeButton />
+        <LargeButton>Transferir</LargeButton>
         <LargeButton />
         <LargeButton />
         <LargeButton />

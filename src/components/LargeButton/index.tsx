@@ -2,15 +2,13 @@ import React from 'react';
 
 import { MaterialIcons } from '@expo/vector-icons';
 
-import { Text } from 'react-native';
-
 import { Container, ButtonText } from './styles';
 
-const LargeButton: React.FC = () => {
+const LargeButton: React.FC = ({children}) => {
   return (
     <>
       <Container onPress={() => {}}>
-        <ButtonText>Transações</ButtonText>
+        <ButtonText>{children}</ButtonText>
 
         <MaterialIcons 
             name="arrow-forward"

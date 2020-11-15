@@ -12,3 +12,43 @@ export const Wrapper = styled.SafeAreaView`
     padding-top: ${statusBarHeight + 'px'};
     align-items: center;
 `;
+
+export const SectionTitle = styled.Text`
+    align-self: flex-start;
+    margin-top: 28px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: white;
+`;
+
+export const AccountInfoContainer = styled.View`
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 16px 15px;
+    margin-bottom: 1px;
+
+    background-color: #545454;
+`;
+
+export const Banking = styled.View`
+    flex-direction: row;
+    align-items: center;
+`;
+
+export const AccountInfo = styled.View``;
+
+export const MainInfo = styled.Text`
+    font-size: 21px;
+    color: #EDEDED;
+`;
+
+export const InfoName = styled.Text`
+    font-size: 15px;
+    color: #BEBEBE;
+`;
+
+export const CopyButton = styled.TouchableOpacity``;

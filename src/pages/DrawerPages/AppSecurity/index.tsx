@@ -1,8 +1,8 @@
 import React from 'react';
 import { MaterialIcons } from '@expo/vector-icons';
-
 import { Switch } from 'react-native';
 
+import LargeButton from '../../../components/LargeButton';
 import Dog from '../../../assets/Security.png';
 
 import { 
@@ -12,29 +12,30 @@ import {
   PageTitle,
   DogImage,
   FingerprintGroup,
-  FingerprintText
+  FingerprintText,
+  ExitInAllDevices,
+  ExitInAllDevicesText
 } from './styles';
+import Heading from '../../../components/Heading';
 
 const AppSecurity: React.FC = () => {
   return (
     <Wrapper>
-      <Header>
-        <Button>
-          <MaterialIcons 
-              name="menu"
-              size={32}
-              color="#8257e6"
-          />
-        </Button>
-        <PageTitle>Segurança</PageTitle>
-      </Header>
+      <Heading>Segurança</Heading>
 
       <DogImage source={Dog} />
 
       <FingerprintGroup>
-          <FingerprintText>Desbloquear com digital</FingerprintText>
-          <Switch trackColor={{ false: "#c4c4c4", true: "#c4c4c4" }} />
-        </FingerprintGroup>
+        <FingerprintText>Desbloquear com digital</FingerprintText>
+        <Switch trackColor={{ false: "#c4c4c4", true: "#c4c4c4" }} />
+      </FingerprintGroup>
+
+      <LargeButton>Verificação em duas etapas</LargeButton>
+      <LargeButton>Token de verificação</LargeButton>
+
+      <ExitInAllDevices>
+        <ExitInAllDevicesText>SAIR DE TODOS OS DISPOSITIVOS</ExitInAllDevicesText>
+      </ExitInAllDevices>
     </Wrapper>
   );
 };

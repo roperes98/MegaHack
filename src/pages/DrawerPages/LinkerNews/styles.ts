@@ -52,7 +52,7 @@ export const CategoryName = styled.Text`
 export const NewsList = styled.ScrollView.attrs({
     vertical: true,
 })`
-height: 75%;
+height: 78.5%;
 `;
 
 export const NewsBox = styled.TouchableOpacity`
@@ -87,10 +87,11 @@ export const NewsText = styled.Text`
 
 export const NewsGroup = styled.View`
     width: 96%;
+    margin-top: 40px;
 `;
 
 export const SavedOnlyGroup = styled.View`
-    margin-top: -20px;
+    margin-top: -15px;
     margin-bottom: 17px;
     flex-direction: row;
     justify-content: space-between;

@@ -21,6 +21,7 @@ import {
   SavedOnlyGroup,
   SavedOnlyText
 } from './styles';
+import Heading from '../../../components/Heading';
 
 interface ItemProps {
   item: typeof data[0];
@@ -36,16 +37,7 @@ const LinkerNews: React.FC = () => {
 
   return (
     <Wrapper>
-      <Header>
-        <Button>
-          <MaterialIcons 
-              name="menu"
-              size={32}
-              color="#8257e6"
-          />
-          </Button>
-          <PageTitle>Linker News</PageTitle>
-      </Header>
+      <Heading>Linker News</Heading>
       <NewsGroup>
         <List>
           {data.map(item => (
