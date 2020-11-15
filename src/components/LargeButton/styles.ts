@@ -10,10 +10,10 @@ export const Container = styled.TouchableOpacity`
     padding: 16px 15px;
     margin-bottom: 1.2px;
 
-    background-color: #2e2e2e;
+    background-color: ${colors.darkGray};
 `;
 
 export const ButtonText = styled.Text`
     font-size: 18px;
-    color: #fff;
+    color: ${colors.justWhite};
 `;

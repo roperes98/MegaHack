@@ -21,24 +21,24 @@ export const BottleImage = styled.Image`
 export const MessageSent = styled.Text`
     font-size: 40px;
     margin-bottom: 18px;
-    color: white;
+    color: ${colors.justWhite};
 `;
 
 export const MessageSentText = styled.Text`
     font-size: 28px;
-    color: white;
+    color: ${colors.justWhite};
 `;
 
 export const MessageSentDownText = styled.Text`
     font-size: 23px;
-    color: white;
+    color: ${colors.justWhite};
 `;
 
 export const SubmitButton = styled.TouchableOpacity`
     width: 75%;
     height: 70px;
 
-    background-color: #6B43D7;
+    background-color: ${colors.purple};
     border-radius: 35px;
 
     justify-content: center;
@@ -48,5 +48,5 @@ export const SubmitButton = styled.TouchableOpacity`
 
 export const SubmitButtonText = styled.Text`
     font-size: 30px;
-    color: white;
+    color: ${colors.justWhite};
 `;

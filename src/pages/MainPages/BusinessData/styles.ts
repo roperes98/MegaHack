@@ -26,7 +26,7 @@ export const Button = styled.TouchableOpacity``;
 
 export const PageTitle = styled.Text`
     font-size: 30px;
-    color: white;
+    color: ${colors.justWhite};
     line-height: 37px;
 `;
 
@@ -36,7 +36,7 @@ export const GraphicData = styled.View`
 
 export const OperatingProfit = styled.Text`
     font-size: 18px;
-    color: #fff;
+    color: ${colors.justWhite};
     align-self: center;
     margin-top: -50px;
 `;
@@ -57,7 +57,7 @@ export const BusinessDataSectionTitleGroup = styled.View`
 export const BusinessDataSectionTitle = styled.Text`
     margin-left: -12px;
     font-size: 26px;
-    color: #fff;
+    color: ${colors.justWhite};
     margin-bottom: 12px;
 `;
 
@@ -68,7 +68,7 @@ export const BusinessDataSectionCards = styled.ScrollView`
 export const Card = styled.View`
     height: 104px;
     width: 45%;
-    background-color: #2e2e2e;
+    background-color: ${colors.darkGray};
     border-radius: 8px;
     align-items: center;
     justify-content: center;
@@ -77,14 +77,14 @@ export const Card = styled.View`
 export const CardText = styled.Text`
     margin-top: -7px;
     font-size: 18px;
-    color: #EDEDED;
+    color: ${colors.softWhite};
 `;
 
 export const CardTextValue = styled.Text`
     margin-top: 12px;
     font-size: 24px;
     align-self: center;
-    color: #EDEDED;
+    color: ${colors.softWhite};
 `;
 
 export const CardsContainer = styled.View`

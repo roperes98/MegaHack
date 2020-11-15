@@ -34,7 +34,7 @@ export const OverviewInfoTitle = styled.Text`
     font-family: Montserrat-Bold;
     font-weight: bold;
     font-size: 30px;
-    color: #EE2E5D;
+    color: ${colors.primaryPink};
 `;
 
 export const MoneyTotal = styled.Text`
@@ -42,7 +42,7 @@ export const MoneyTotal = styled.Text`
     margin-bottom: 2px;
     font-weight: bold;
     font-size: 35px;
-    color: #ffffff;
+    color: ${colors.justWhite};
 `;
 
 export const MoneyReturn = styled.Text`

@@ -26,12 +26,12 @@ export const Button = styled.TouchableOpacity``;
 
 export const PageTitle = styled.Text`
     font-size: 30px;
-    color: white;
+    color: ${colors.justWhite};
     line-height: 37px;
 `;
 
 export const ScoreCircle = styled.View`
-    background-color: #FFA500;
+    background-color: ${colors.primaryOrange};
     width: 332px;
     height: 332px;
 
@@ -45,13 +45,13 @@ export const ScoreCircle = styled.View`
 `;
 
 export const ScoreText = styled.Text`
-    color: #fff;
+    color: ${colors.justWhite};
     font-size: 42px;
     margin-right: 20px;
 `;
 
 export const ScoreSubText = styled.Text`
-    color: #fff;
+    color: ${colors.justWhite};
     font-size: 32px;
     top: -10px;
     margin-right: 20px;
@@ -68,7 +68,7 @@ export const LastUpdatedText = styled.Text`
     margin-left: 10px;
     font-size: 16px;
     font-weight: 600;
-    color: #fff;
+    color: ${colors.justWhite};
 `;
 
 export const ScoreInfo = styled.View`
@@ -79,7 +79,7 @@ export const ScoreInfo = styled.View`
 export const ScoreInfoTitle = styled.Text`
     margin-left: 11px;
     font-size: 28px;
-    color: white;
+    color: ${colors.justWhite};
 `;
 
 export const ScoreInfoCards = styled.View`
@@ -89,16 +89,16 @@ export const ScoreInfoCards = styled.View`
 export const Card = styled.TouchableOpacity`
     width: 100%;
     padding: 16px 15px;
-    background-color: #2e2e2e;
+    background-color: ${colors.darkGray};
     justify-content: center;
 `;
 
 export const MainInfo = styled.Text`
     font-size: 21px;
-    color: #EDEDED;
+    color: ${colors.softWhite};
 `;
 
 export const InfoName = styled.Text`
     font-size: 15px;
-    color: #BEBEBE;
+    color: ${colors.softGray};
 `;

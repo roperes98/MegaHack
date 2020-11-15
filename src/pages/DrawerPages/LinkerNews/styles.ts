@@ -26,7 +26,7 @@ export const Button = styled.TouchableOpacity``;
 
 export const PageTitle = styled.Text`
     font-size: 30px;
-    color: white;
+    color: ${colors.justWhite};
     line-height: 37px;
 `;
 
@@ -46,7 +46,7 @@ export const CategoryImage = styled.Image`
 `;
 export const CategoryName = styled.Text`
     margin-top: 5px;
-    color: #fff;
+    color: ${colors.justWhite};
 `;
 
 export const NewsList = styled.ScrollView.attrs({

@@ -43,12 +43,12 @@ export const AccountInfo = styled.View``;
 
 export const MainInfo = styled.Text`
     font-size: 21px;
-    color: #EDEDED;
+    color: ${colors.softWhite};
 `;
 
 export const InfoName = styled.Text`
     font-size: 15px;
-    color: #BEBEBE;
+    color: ${colors.softGray};
 `;
 
 export const CopyButton = styled.TouchableOpacity``;

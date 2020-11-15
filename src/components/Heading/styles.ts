@@ -14,6 +14,6 @@ export const Button = styled.TouchableOpacity``;
 
 export const PageTitle = styled.Text`
     font-size: 30px;
-    color: white;
+    color: ${colors.softWhite};
     line-height: 37px;
 `;

@@ -21,7 +21,7 @@ export const HelpBox = styled.View`
 
 export const HelpText = styled.Text`
     font-size: 18px;
-    color: #fff;
+    color: ${colors.justWhite};
 `;
 
 export const HelpUserText = styled.TextInput`
@@ -33,7 +33,7 @@ export const HelpUserText = styled.TextInput`
     border-radius: 10px;
     padding: 15px;
 
-    color: white;
+    color: ${colors.justWhite};
     font-size: 17px;
     textAlignVertical: top;
 `;
@@ -42,7 +42,7 @@ export const SubmitButton = styled.TouchableOpacity`
     width: 75%;
     height: 70px;
 
-    background-color: #6B43D7;
+    background-color: ${colors.purple};
     border-radius: 35px;
 
     justify-content: center;
@@ -52,5 +52,5 @@ export const SubmitButton = styled.TouchableOpacity`
 
 export const SubmitButtonText = styled.Text`
     font-size: 30px;
-    color: white;
+    color: ${colors.justWhite};
 `;
