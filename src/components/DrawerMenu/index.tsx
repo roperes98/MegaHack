@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Text } from 'react-native';
+import LargeButton from '../LargeButton';
 
 import { 
   Container,
@@ -17,13 +17,18 @@ const DrawerMenu: React.FC = () => {
   return (
     <Container>
       <MenuContainer>
-      <ProfileInfo>
+        <ProfileInfo>
           <ProfileImage />
           <ProfileInfoData>
             <ProfileName>Nasa</ProfileName>
             <ProfileEmail>contato@nasa.com</ProfileEmail>
           </ProfileInfoData>
         </ProfileInfo>
+        <LargeButton>Notificações</LargeButton>
+        <LargeButton>Minha Conta</LargeButton>
+        <LargeButton>Linker News</LargeButton>
+        <LargeButton>Segurança</LargeButton>
+        <LargeButton>Me ajuda</LargeButton>
       </MenuContainer>
     </Container>
   );

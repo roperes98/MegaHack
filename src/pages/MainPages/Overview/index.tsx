@@ -34,14 +34,14 @@ class Overview extends Component {
     const { leftOpen } = this.state;
 
     return (
-      <Wrapper>
-        <SideMenu 
-          isOpen={leftOpen}
-          disableGestures
-          onChange={isOpen => this.toggleMenu('left', isOpen)}
-          openMenuOffset={250}
-          menu={<DrawerMenu />}
-        >
+      <SideMenu 
+        isOpen={leftOpen}
+        disableGestures
+        onChange={isOpen => this.toggleMenu('left', isOpen)}
+        openMenuOffset={250}
+        menu={<DrawerMenu />}
+      >
+        <Wrapper>
           <Heading>
             <Menu onPress={() => this.toggleMenu('left', true)}>
               <MaterialIcons 
@@ -80,8 +80,8 @@ class Overview extends Component {
             <LargeButton>Depositar</LargeButton>
             <LargeButton>Crédito</LargeButton>
           </BankingFunctions>
-        </SideMenu>
-      </Wrapper>
+        </Wrapper>
+      </SideMenu>
     );
   }
 };
